@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mesaj.css">
+    <title>kayıt ol</title>
+</head>
+
+<body>
+    <input id="klnc" type="text" >
+    <button onclick="gıir()" id="gır">griş yap</button>
+    
+    <script   >
+function gıir(){
+   
+    var isim=document.getElementById("klnc").value;
+    localStorage.setItem("namee",isim);
+   window.location.href="mesajlajma sitesimsi.html";
+
+
+
+}
+
+    </script>
+</body>
+</html>
