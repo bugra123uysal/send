@@ -58,7 +58,10 @@
     top: 20px;
     left: 450px;
     border: solid 1px black;
-    word-wrap:unset;
+    word-wrap:break-word;
+    /* scrol bar */
+    overflow-y: auto;
+    
     
    
 }
